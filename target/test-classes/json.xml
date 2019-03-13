@@ -1,0 +1,183 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5297182744,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To test ultimatix login page",
+        "description": "",
+        "id": "to-test-ultimatix-login-page;to-test-ultimatix-login-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 37206,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1277222422,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user should be in ultimatix home page",
+            "match": {
+              "location": "LoginScreen.the_user_should_be_in_ultimatix_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 927289413,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user should enter combination of username and password\"11111111\",\"22222222\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11111111\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"22222222\"",
+                  "offset": 69
+                }
+              ],
+              "location": "LoginScreen.the_user_should_enter_combination_of_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c The information you entered is incorrect. Please try again.\u003e but was:\u003cnull\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat com.ultimatix.stepdefinition.LoginScreen.the_user_should_should_see_the_error_message(LoginScreen.java:26)\r\n\tat ✽.The user should should see the error\" The information you entered is incorrect. Please try again.\"message(src/test/resources/Features/NTLFeature/ntl.feature:8)\r\n",
+              "duration": 54079413,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "The user should should see the error\" The information you entered is incorrect. Please try again.\"message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" The information you entered is incorrect. Please try again.\"",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginScreen.the_user_should_should_see_the_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2488727254,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To test ultimatix login page",
+        "description": "",
+        "id": "to-test-ultimatix-login-page;to-test-ultimatix-login-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 51746,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1188426058,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user should be in ultimatix home page",
+            "match": {
+              "location": "LoginScreen.the_user_should_be_in_ultimatix_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 913190517,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user should enter combination of username and password\"33333333\",\"44444444\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"33333333\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"44444444\"",
+                  "offset": 69
+                }
+              ],
+              "location": "LoginScreen.the_user_should_enter_combination_of_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c The information you entered is incorrect. Please try again.\u003e but was:\u003cnull\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat com.ultimatix.stepdefinition.LoginScreen.the_user_should_should_see_the_error_message(LoginScreen.java:26)\r\n\tat ✽.The user should should see the error\" The information you entered is incorrect. Please try again.\"message(src/test/resources/Features/NTLFeature/ntl.feature:8)\r\n",
+              "duration": 54372356,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "The user should should see the error\" The information you entered is incorrect. Please try again.\"message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" The information you entered is incorrect. Please try again.\"",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginScreen.the_user_should_should_see_the_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test ultimatix login page",
+    "description": "",
+    "id": "to-test-ultimatix-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/NTLFeature/ntl.feature",
+    "tags": []
+  }
+]
